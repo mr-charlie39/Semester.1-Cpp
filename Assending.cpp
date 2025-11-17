@@ -21,8 +21,4 @@ int main(){
 	for(int i = 0 ; i < 5 ; i++){
 		cout<<num[i]<<endl;
 	}
-	cout<<"Dessending :"<<endl;
-	for(int i = 4 ; i >= 0 ; i--){
-		cout<<num[i]<<endl;
-	}
 }
