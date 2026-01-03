@@ -15,7 +15,7 @@ int main() {
     cout << "Enter the Roll no: ";
     cin >> s1.rollno;
 
-    // Clear input buffer completely
+   
     cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
     cout << "Enter the Name: ";
