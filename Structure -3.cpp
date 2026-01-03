@@ -11,6 +11,7 @@ struct book {
 
 int main() {
 
+    cout<<"Define a structure Book with: \n\t -- bookID, title, price. \n -Write a program to display only the books with price greater than 1000. "<<endl;
     book b[5];
 
     for (int i = 0; i < 5; i++) {
