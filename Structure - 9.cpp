@@ -10,6 +10,7 @@ struct patient{
 };
 
 int main(){
+    cout<<" - Define a structure Patient with: \n\t patientID \n\t patientName \n\t temperature \n - Display the data of patients having temperature greater than 38°C. "<<endl;
     int n;
     cout<<"Enter the number of patients : ";
     cin>>n;
