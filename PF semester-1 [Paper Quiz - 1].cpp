@@ -15,6 +15,8 @@ void calculate(employee e[] , double *ptr , int i){
 }
 
 int main(){
+    cout<<"--- Employee Salary Management System ---"<<endl;
+    cout<<"\nWrite a C++ program to manage employee salary records.\nRequirements\nDefine a structure Employee containing:\n\tEmployee ID\n\tBasic Salary\n\tAllowance\n\tDeduction\n\tNet Salary\nStore data for 5 employees\nWrite a function to calculate:\n\tNet Salary = Basic + Allowance - Deduction\nUse a pointer to update net salary\nDisplay salary status:\n\t\"High Income\" if net salary ≥ 50000\n\t\"Medium Income\" if 30000–49999\n\t\"Low Income\" otherwise"<<endl;
     employee e[5];
 
     cout<<"Input employee details: "<<endl;
